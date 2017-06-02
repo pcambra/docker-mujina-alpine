@@ -1,0 +1,8 @@
+version: '2'
+services:
+  saml:
+    build: .
+    network_mode: bridge
+    ports:
+      - "8080:8080"
+      - "9090:9090"
